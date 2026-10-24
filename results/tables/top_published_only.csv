@@ -1,0 +1,2 @@
+gene,log2fc_pub,stat_pub,q_pub,sig_pub,lfc_mine,lfc_shrunk_mine,stat_mine,padj_mine,sig_mine
+RASD1,2.42622,3.5781645421144104,0.0157937,True,1.5802236119128936,0.3565830833660976,2.35720453047517,0.08206092846830276,False

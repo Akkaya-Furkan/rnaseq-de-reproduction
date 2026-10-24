@@ -1,0 +1,17 @@
+run,cell_line,treatment,dex,dex_response_score
+SRR1039508,N61311,Untreated,no,-1.069
+SRR1039509,N61311,Dexamethasone,yes,0.768
+SRR1039510,N61311,Albuterol,no,-1.152
+SRR1039511,N61311,Albuterol_Dexamethasone,yes,0.714
+SRR1039512,N052611,Untreated,no,-0.818
+SRR1039513,N052611,Dexamethasone,yes,1.086
+SRR1039514,N052611,Albuterol,no,0.824
+SRR1039515,N052611,Albuterol_Dexamethasone,yes,-0.54
+SRR1039516,N080611,Untreated,no,-0.966
+SRR1039517,N080611,Dexamethasone,yes,0.834
+SRR1039518,N080611,Albuterol,no,0.773
+SRR1039519,N080611,Albuterol_Dexamethasone,yes,-0.616
+SRR1039520,N061011,Untreated,no,-0.941
+SRR1039521,N061011,Dexamethasone,yes,1.079
+SRR1039522,N061011,Albuterol,no,-0.946
+SRR1039523,N061011,Albuterol_Dexamethasone,yes,0.969

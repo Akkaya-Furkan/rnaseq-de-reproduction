@@ -1,0 +1,97 @@
+Top-N overlap (published Cuffdiff vs pyDESeq2), common tested genes
+  n  shared  jaccard  expected_shared_by_chance
+ 10       7    0.538                      0.008
+ 25      16    0.471                      0.052
+ 50      28    0.389                      0.209
+100      73    0.575                      0.835
+200     145    0.569                      3.340
+316     239    0.608                      8.339
+
+{
+  "n_samples": 8,
+  "genes_tested_pydeseq2_after_filter": 26150,
+  "genes_with_padj_pydeseq2": 21080,
+  "pydeseq2_sig_padj_lt_0.05": 4158,
+  "pydeseq2_sig_padj_lt_0.05_abs_lfc_gt_1": 1125,
+  "pydeseq2_up": 2287,
+  "pydeseq2_down": 1871,
+  "published_genes_status_OK": 13513,
+  "published_sig_q_lt_0.05_total": 316,
+  "common_tested_genes": 11975,
+  "published_sig_in_common": 302,
+  "pydeseq2_sig_in_common": 3275,
+  "sig_intersection": 301,
+  "sig_jaccard": 0.09188034188034189,
+  "published_sig_recovered_fraction": 0.9966887417218543,
+  "pydeseq2_sig_also_published_fraction": 0.09190839694656489,
+  "sig_intersection_same_direction": 301,
+  "published_sig_not_in_common_universe": 14,
+  "spearman_signed_score": {
+    "n_genes": 11975,
+    "spearman_rho": 0.9626563285174299,
+    "spearman_p": 0.0
+  },
+  "spearman_log2fc": {
+    "n_genes": 11975,
+    "spearman_rho": 0.9599939694400641,
+    "spearman_p": 0.0
+  },
+  "direction_concordance_all_common": 0.9248434237995825,
+  "direction_concordance_published_sig": 1.0,
+  "pca_explained_variance_pc1_pc2": [
+    0.29517184061798685,
+    0.2143079043449155
+  ],
+  "library_size_min_max": [
+    19194819,
+    31583774
+  ],
+  "permutation_balanced_signflip_sig_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "permutation_partial_swap_sig_counts": [
+    2,
+    23,
+    0,
+    0,
+    0,
+    0,
+    23,
+    2
+  ],
+  "apparent_albuterol_label_swaps_donors": [
+    "N052611",
+    "N080611"
+  ],
+  "sensitivity_16samples_as_labelled": {
+    "sig": 0,
+    "sig_in_common": 0,
+    "jaccard_with_published": 0.0,
+    "intersection": 0
+  },
+  "sensitivity_16samples_swap_corrected_posthoc_exploratory": {
+    "sig": 8805,
+    "sig_in_common": 6193,
+    "jaccard_with_published": 0.04876473437752301,
+    "intersection": 302
+  },
+  "sensitivity_unpaired": {
+    "sig": 3230,
+    "jaccard_with_published": 0.11442385173247381
+  },
+  "sensitivity_abs_lfc_gt_1": {
+    "published": 302,
+    "pydeseq2": 760,
+    "jaccard": 0.3918741808650065
+  },
+  "published_only_median_basemean_pydeseq2": 103.92447247063204,
+  "shared_median_basemean_pydeseq2": 1135.7803300315732,
+  "pydeseq2_only_median_basemean": 759.6854690627329,
+  "pydeseq2_only_median_abs_lfc": 0.5527625814194348,
+  "shared_median_abs_lfc": 1.6743412959330455
+}
